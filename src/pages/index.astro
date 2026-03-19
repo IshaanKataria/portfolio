@@ -53,12 +53,12 @@ import '../styles/global.css'
     <!-- ===== HERO ===== -->
     <section id="hero" class="hero">
       <div class="hero-container">
-        <p class="hero-label reveal">Full-stack Developer &mdash; Melbourne, AU</p>
+        <p class="hero-label reveal">Full-stack Developer / Melbourne, AU</p>
         <h1 class="hero-heading reveal reveal-d1">
-          I'm <span class="hl-coral">Ishaan Kataria</span>, a Full-Stack Developer from <span class="hl-blue">Melbourne</span>
+          Hi, I'm <span class="hl-coral">Ishaan Kataria</span>, a Full-Stack Developer from <span class="hl-blue">Melbourne</span>
         </h1>
         <p class="hero-desc reveal reveal-d2">
-          Building financial tools and real-time systems. Studying Commerce &amp; IT at Monash &mdash; looking for a startup where I can ship from day one.
+          I build financial tools and real-time systems. Studying Commerce &amp; IT at Monash, and I'm looking for a startup where I can ship from day one.
         </p>
         <div class="hero-actions reveal reveal-d3">
           <a href="#contact" class="btn-dark">
@@ -78,62 +78,6 @@ import '../styles/global.css'
         <h2 class="section-heading reveal">Selected <span class="hl-coral">Projects</span></h2>
 
         <div class="projects-list">
-          <!-- Ember -->
-          <article class="project-card reveal">
-            <div class="project-info">
-              <span class="badge">UNIHACK 2026</span>
-              <h3 class="project-title">Ember</h3>
-              <p class="project-tagline">Elderly Care Platform with Real-Time Translation</p>
-              <p class="project-desc">
-                Built a comprehensive elderly care platform combining one-tap video calling with an AI routine companion. Features real-time speech translation across 13+ languages using a self-hosted pipeline with under 550ms latency. Includes medication tracking, mood check-ins, and a caregiver dashboard with smart escalation.
-              </p>
-              <div class="tag-row">
-                <span class="tag">Next.js</span>
-                <span class="tag">React</span>
-                <span class="tag">Go</span>
-                <span class="tag">WebRTC</span>
-                <span class="tag">PostgreSQL</span>
-                <span class="tag">Docker</span>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/aShanki/unihack2026" target="_blank" rel="noopener" class="link-arrow">
-                  View on GitHub
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </div>
-            <div class="project-visual" style="background-color: #FFC224;">
-              <img src="/projects/ember.png" alt="Ember elderly care dashboard showing medication tracking and video calling" />
-            </div>
-          </article>
-
-          <!-- SiteVoice -->
-          <article class="project-card reveal">
-            <div class="project-visual" style="background-color: #6366F1;">
-              <img src="/projects/sitevoice.png" alt="SiteVoice voice assistant interface for plumber quoting" />
-            </div>
-            <div class="project-info">
-              <span class="badge">Sophiie AI Hackathon &mdash; Solo</span>
-              <h3 class="project-title">SiteVoice</h3>
-              <p class="project-tagline">Voice-First AI Assistant for Tradies</p>
-              <p class="project-desc">
-                Voice-powered quoting system for Australian plumbers who need hands-free admin. Speak naturally about a job and SiteVoice builds professional, itemized quotes in real time with accurate pricing and GST calculations. Built-in materials database with real pricing across 6 categories.
-              </p>
-              <div class="tag-row">
-                <span class="tag">Python</span>
-                <span class="tag">Streamlit</span>
-                <span class="tag">OpenAI GPT-4o</span>
-                <span class="tag">Whisper STT</span>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/IshaanKataria/hackathon" target="_blank" rel="noopener" class="link-arrow">
-                  View on GitHub
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
           <!-- StockAnalyser -->
           <article class="project-card reveal">
             <div class="project-info">
@@ -141,7 +85,7 @@ import '../styles/global.css'
               <h3 class="project-title">StockAnalyser</h3>
               <p class="project-tagline">AI-Powered Financial Text Analysis</p>
               <p class="project-desc">
-                Paste earnings reports, news articles, or transcripts and get instant sentiment analysis, key insights, risk factors, and actionable summaries. Three analysis modes powered by GPT-4o-mini with a clean dark-themed interface.
+                I wanted a quick way to break down earnings reports and news articles without reading through pages of text. So I built a tool that takes any financial text, runs it through GPT-4o-mini, and pulls out sentiment, key insights, risk factors, and a summary you can actually act on. Three analysis modes, dark theme, and you can export everything as JSON.
               </p>
               <div class="tag-row">
                 <span class="tag">Python</span>
@@ -165,6 +109,62 @@ import '../styles/global.css'
             </div>
           </article>
 
+          <!-- Ember -->
+          <article class="project-card reveal">
+            <div class="project-visual" style="background-color: #FFC224;">
+              <img src="/projects/ember.png" alt="Ember elderly care dashboard showing medication tracking and video calling" />
+            </div>
+            <div class="project-info">
+              <span class="badge">UNIHACK 2026</span>
+              <h3 class="project-title">Ember</h3>
+              <p class="project-tagline">Elderly Care Platform with Real-Time Translation</p>
+              <p class="project-desc">
+                Built this with a team of 6 at UNIHACK. It's an elderly care platform where seniors can video call family with a single tap, and the call gets translated in real time across 13+ languages. We self-hosted the whole translation pipeline and got it under 550ms latency. Also has medication reminders, mood tracking, and a dashboard that nudges family when something seems off.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Next.js</span>
+                <span class="tag">React</span>
+                <span class="tag">Go</span>
+                <span class="tag">WebRTC</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Docker</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/aShanki/unihack2026" target="_blank" rel="noopener" class="link-arrow">
+                  View on GitHub
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- SiteVoice -->
+          <article class="project-card reveal">
+            <div class="project-info">
+              <span class="badge">Sophiie AI Hackathon / Solo</span>
+              <h3 class="project-title">SiteVoice</h3>
+              <p class="project-tagline">Voice-First AI Assistant for Tradies</p>
+              <p class="project-desc">
+                Plumbers lose hours every week on admin when they should be on the tools. I built SiteVoice so they can create quotes just by talking. Say something like "Dave needs a hot water replacement, Rheem 250L, add a tempering valve" and it builds a full itemized quote with real pricing and GST. Did this solo in a 33-hour hackathon sprint.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">Streamlit</span>
+                <span class="tag">OpenAI GPT-4o</span>
+                <span class="tag">Whisper STT</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/IshaanKataria/hackathon" target="_blank" rel="noopener" class="link-arrow">
+                  View on GitHub
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-visual" style="background-color: #6366F1;">
+              <img src="/projects/sitevoice.png" alt="SiteVoice voice assistant interface for plumber quoting" />
+            </div>
+          </article>
+
           <!-- VolLab -->
           <article class="project-card project-card--compact reveal">
             <div class="project-info">
@@ -172,7 +172,7 @@ import '../styles/global.css'
               <h3 class="project-title">VolLab</h3>
               <p class="project-tagline">Options Pricing & Calibration Workbench</p>
               <p class="project-desc">
-                Building an options pricing and volatility calibration workbench from scratch &mdash; Black-Scholes, Heston model, SVI surface fitting. All implementations from the ground up, no black-box libraries.
+                Building an options pricing and volatility calibration workbench from scratch. Black-Scholes, Heston model, SVI surface fitting, all implemented from the ground up without black-box libraries.
               </p>
               <div class="tag-row">
                 <span class="tag">Python</span>
@@ -200,13 +200,13 @@ import '../styles/global.css'
         <div class="about-grid">
           <div class="about-text reveal">
             <p>
-              I'm doing a double degree at Monash &mdash; Commerce and IT &mdash; because I couldn't pick one. Turns out that's a feature, not a bug. I think about problems from both the business and technical side, which means I build things people actually want to use.
+              I'm doing a double degree at Monash in Commerce and IT because I couldn't pick one. Turns out that's a feature, not a bug. I think about problems from both the business and technical side, which means I build things people actually want to use.
             </p>
             <p>
               I got into coding through wanting to automate stuff that annoyed me. That turned into building an AI stock analyser, pulling all-nighters at hackathons, and shipping a real-time elderly care platform at UNIHACK.
             </p>
             <p>
-              I'm interested in startups and want to eventually build my own. Right now I'm stacking skills &mdash; shipping side projects, competing in hackathons, and looking for the right team to join.
+              I'm interested in startups and want to eventually build my own. Right now I'm stacking skills, shipping side projects, competing in hackathons, and looking for the right team to join.
             </p>
           </div>
           <div class="reveal reveal-d1">
@@ -329,7 +329,7 @@ import '../styles/global.css'
     <section id="contact" class="contact-section">
       <h2 class="section-heading reveal">Let's <span class="hl-coral">Connect</span></h2>
       <p class="contact-desc reveal reveal-d1">
-        Open to opportunities, collaborations, and conversations. If you have a project in mind or just want to say hello &mdash; reach out.
+        Always happy to chat about opportunities, collaborations, or just cool ideas. If you've got something in mind or want to say hey, drop me a line.
       </p>
       <div class="reveal reveal-d2">
         <a href="mailto:ishaankataria3@gmail.com" class="email-display">
