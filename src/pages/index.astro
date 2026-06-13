@@ -27,6 +27,7 @@ import '../styles/global.css'
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
+        <a href="#awards">Awards</a>
         <a href="#experience">Experience</a>
       </div>
       <a href="#contact" class="nav-cta" aria-label="Contact">
@@ -44,6 +45,7 @@ import '../styles/global.css'
         <a href="#projects" class="mobile-link">Projects</a>
         <a href="#about" class="mobile-link">About</a>
         <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#awards" class="mobile-link">Awards</a>
         <a href="#experience" class="mobile-link">Experience</a>
         <a href="#contact" class="mobile-link">Contact</a>
         <a href="/Ishaan_Kataria_Resume.pdf" download class="mobile-link" style="color: var(--color-coral);">Download Resume</a>
@@ -78,6 +80,34 @@ import '../styles/global.css'
         <h2 class="section-heading reveal">Selected <span class="hl-coral">Projects</span></h2>
 
         <div class="projects-list">
+          <!-- Belongity -->
+          <article class="project-card project-card--compact reveal">
+            <div class="project-info">
+              <span class="badge badge--live">Best Pitch &middot; Canva Hackathon 2026</span>
+              <h3 class="project-title">Belongity</h3>
+              <p class="project-tagline">Student Belonging Platform</p>
+              <p class="project-desc">
+                Starting university is isolating, and most "belonging" support kicks in too late. Belongity matches incoming students into small peer "pods" before they even arrive, using onboarding quizzes to pair people who'll actually click, then keeps them engaged with weekly connection quests. It's mobile-first and built to feel warm, not institutional. We won Best Pitch at the Canva-sponsored hackathon at Monash's The Generator.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Next.js</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Framer Motion</span>
+              </div>
+              <div class="project-links">
+                <a href="https://belongity.vercel.app" target="_blank" rel="noopener" class="link-arrow">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="https://github.com/IshaanKataria/belongity" target="_blank" rel="noopener" class="link-arrow">
+                  View on GitHub
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
           <!-- StockAnalyser -->
           <article class="project-card reveal">
             <div class="project-info">
@@ -116,14 +146,14 @@ import '../styles/global.css'
               <h3 class="project-title">SiteVoice</h3>
               <p class="project-tagline">Voice-First AI Assistant for Tradies</p>
               <p class="project-desc">
-                Plumbers lose hours every week on admin when they should be on the tools. I built SiteVoice so they can create quotes just by talking. Say something like "Dave needs a hot water replacement, Rheem 250L, add a tempering valve" and it builds a full itemized quote with real pricing and GST. Shipped in a solo-only 33-hour hackathon, then refactored into a multi-tenant persistent app with Postgres and tool-call telemetry.
+                Plumbers lose hours every week on admin when they should be on the tools. I built SiteVoice so they can create quotes just by talking. Say something like "Dave needs a hot water replacement, Rheem 250L, add a tempering valve" and it builds a full itemized quote with real pricing and GST. Shipped in a solo-only 33-hour hackathon, then refactored into a self-contained persistent app backed by SQLite with tool-call telemetry.
               </p>
               <div class="tag-row">
                 <span class="tag">Python</span>
                 <span class="tag">Streamlit</span>
                 <span class="tag">OpenAI GPT-4o</span>
                 <span class="tag">Whisper STT</span>
-                <span class="tag">Supabase</span>
+                <span class="tag">SQLite</span>
               </div>
               <div class="project-links">
                 <a href="https://sitevoice.streamlit.app" target="_blank" rel="noopener" class="link-arrow">
@@ -138,6 +168,59 @@ import '../styles/global.css'
             </div>
             <div class="project-visual" style="background-color: #6366F1;">
               <img src="/projects/sitevoice.png" alt="SiteVoice voice assistant interface for plumber quoting" />
+            </div>
+          </article>
+
+          <!-- SafeWalk -->
+          <article class="project-card project-card--compact reveal">
+            <div class="project-info">
+              <span class="badge">Macathon 2026</span>
+              <h3 class="project-title">SafeWalk</h3>
+              <p class="project-tagline">Walking-Route Safety Scorer</p>
+              <p class="project-desc">
+                A lot of people change how they walk home at night based on gut feel. SafeWalk turns that into data. It scores walking routes for safety using ML heatmaps trained on incident data, layers in community-submitted reports, and surfaces the safer path rather than just the fastest one. Built across a Next.js frontend, a FastAPI backend, and a PostGIS database, with an XGBoost model doing the scoring.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Next.js</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">PostgreSQL / PostGIS</span>
+                <span class="tag">XGBoost</span>
+              </div>
+              <div class="project-links">
+                <a href="https://frontend-topaz-pi-18.vercel.app" target="_blank" rel="noopener" class="link-arrow">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="https://github.com/IshaanKataria/SafeWalk" target="_blank" rel="noopener" class="link-arrow">
+                  View on GitHub
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- GroupChatWrapped -->
+          <article class="project-card project-card--compact reveal">
+            <div class="project-info">
+              <span class="badge">HackMelbourne 2026</span>
+              <h3 class="project-title">GroupChatWrapped</h3>
+              <p class="project-tagline">Spotify Wrapped, but for Your Group Chat</p>
+              <p class="project-desc">
+                Everyone's group chat has a personality. GroupChatWrapped exposes it. Drop in an exported WhatsApp group chat and it generates a Spotify-Wrapped-style breakdown: who carries the conversation, the night-owl, the ghost, peak chaos hours, plus AI-written stats and shareable cards. Built in a weekend with Next.js 16, React 19, and the Claude API doing the narrative generation.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Next.js 16</span>
+                <span class="tag">React 19</span>
+                <span class="tag">Tailwind v4</span>
+                <span class="tag">Framer Motion</span>
+                <span class="tag">Claude API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://groupchatwrapped.vercel.app" target="_blank" rel="noopener" class="link-arrow">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
             </div>
           </article>
 
@@ -208,7 +291,7 @@ import '../styles/global.css'
               I'm doing a double degree at Monash in Commerce and IT because I couldn't pick one. Turns out that's a feature, not a bug. I think about problems from both the business and technical side, which means I build things people actually want to use.
             </p>
             <p>
-              I got into coding through wanting to automate stuff that annoyed me. That turned into building an AI voice assistant for tradies, pulling all-nighters at hackathons, and shipping a real-time elderly care platform at UNIHACK. Currently exploring forensic technology, financial crime advisory, and software engineering.
+              I got into coding through wanting to automate stuff that annoyed me. That turned into building an AI voice assistant for tradies, pulling all-nighters at hackathons, and winning Best Pitch at a Canva-sponsored hackathon for Belongity. Currently exploring forensic technology, financial crime advisory, and software engineering.
             </p>
             <p>
               I'm interested in startups and want to eventually build my own. Right now I'm stacking skills, shipping side projects, competing in hackathons, and looking for the right team to join.
@@ -285,6 +368,58 @@ import '../styles/global.css'
               <span class="skill-pill">pandas</span>
               <span class="skill-pill">matplotlib</span>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AWARDS & LEADERSHIP ===== -->
+    <section id="awards" class="section">
+      <div class="section-container">
+        <h2 class="section-heading reveal">Awards <span class="hl-blue">&amp; Leadership</span></h2>
+
+        <div class="awards-grid">
+          <div class="skill-card reveal">
+            <h3>Honors &amp; Awards</h3>
+            <ul class="award-list">
+              <li>
+                <span class="award-title">Best Pitch</span>
+                <span class="award-meta">Canva Hackathon, Monash &middot; 2026</span>
+              </li>
+              <li>
+                <span class="award-title">1st Place &mdash; LeadLab Leadership Simulation</span>
+                <span class="award-meta">Beta Alpha Psi, Monash</span>
+              </li>
+              <li>
+                <span class="award-title">1st Place &mdash; INAAM Invest With Impact Pitch</span>
+                <span class="award-meta">Monash Entrepreneurship Club</span>
+              </li>
+              <li>
+                <span class="award-title">State Finalist &mdash; Public Policy Case Competition</span>
+                <span class="award-meta">Economics Student Society of Australia</span>
+              </li>
+              <li>
+                <span class="award-title">Top 10 &mdash; Sophiie AI Hackathon</span>
+                <span class="award-meta">SiteVoice</span>
+              </li>
+            </ul>
+          </div>
+          <div class="skill-card reveal reveal-d1">
+            <h3>Leadership &amp; Activities</h3>
+            <ul class="award-list">
+              <li>
+                <span class="award-title">Sponsorship &mdash; Monash Algorithms &amp; Problem Solving</span>
+                <span class="award-meta">Firm outreach incl. Optiver for the Trade-a-thon</span>
+              </li>
+              <li>
+                <span class="award-title">General Committee &mdash; Beta Alpha Psi</span>
+                <span class="award-meta">Monash chapter</span>
+              </li>
+              <li>
+                <span class="award-title">Sponsorship &mdash; Monash Entrepreneurship Club</span>
+                <span class="award-meta">Partnerships &amp; outreach</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
