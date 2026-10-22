@@ -7,10 +7,10 @@ import '../styles/global.css'
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <title>Ishaan Kataria | Developer</title>
-    <meta name="description" content="Ishaan Kataria — full-stack developer building financial tools and real-time systems. Commerce & IT at Monash University." />
-    <meta property="og:title" content="Ishaan Kataria | Developer" />
-    <meta property="og:description" content="Full-stack developer building financial tools and real-time systems." />
+    <title>Ishaan Kataria | Developer &amp; Co-founder</title>
+    <meta name="description" content="Ishaan Kataria, co-founder of Constance and full-stack developer in Melbourne. Commerce &amp; IT at Monash University." />
+    <meta property="og:title" content="Ishaan Kataria | Developer &amp; Co-founder" />
+    <meta property="og:description" content="Co-founder of Constance and full-stack developer in Melbourne." />
     <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -55,12 +55,12 @@ import '../styles/global.css'
     <!-- ===== HERO ===== -->
     <section id="hero" class="hero">
       <div class="hero-container">
-        <p class="hero-label reveal">Full-stack Developer / Melbourne, AU</p>
+        <p class="hero-label reveal">Co-founder @ Constance / Melbourne, AU</p>
         <h1 class="hero-heading reveal reveal-d1">
-          Hi, I'm <span class="hl-coral">Ishaan Kataria</span>, a Full-Stack Developer from <span class="hl-blue">Melbourne</span>
+          Hi, I'm <span class="hl-coral">Ishaan Kataria</span>, a developer and co-founder from <span class="hl-blue">Melbourne</span>
         </h1>
         <p class="hero-desc reveal reveal-d2">
-          I build financial tools and real-time systems. Studying Commerce &amp; IT at Monash, and I'm looking for a startup where I can ship from day one.
+          I'm building Constance, a Melbourne healthtech working on the weeks between hospital and home. Studying Commerce &amp; IT at Monash and shipping software along the way.
         </p>
         <div class="hero-actions reveal reveal-d3">
           <a href="#contact" class="btn-dark">
@@ -80,6 +80,94 @@ import '../styles/global.css'
         <h2 class="section-heading reveal">Selected <span class="hl-coral">Projects</span></h2>
 
         <div class="projects-list">
+          <!-- Constance -->
+          <article class="project-card reveal">
+            <div class="project-info">
+              <span class="badge badge--live">1st &middot; Startmate Student Founder Bootcamp</span>
+              <h3 class="project-title">Constance</h3>
+              <p class="project-tagline">Support for the Weeks Between Hospital and Home</p>
+              <p class="project-desc">
+                Too many people end up back in hospital in the weeks after going home, for things that could have been caught earlier. I co-founded Constance with two others at the Startmate Student Founder Bootcamp, where we validated the problem with a cardiologist, a surgeon and a health insurer in 36 hours and won the final pitch out of ~60 students. I lead product and tech. I built our demo, an AI text companion that answers only from a person's own discharge plan, with a dashboard for their care team, and designed the setup for keeping health data in Australia.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Next.js</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Cloudflare Workers</span>
+                <span class="tag">OpenAI API</span>
+                <span class="tag">AWS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://constancehealth.au" target="_blank" rel="noopener" class="link-arrow">
+                  Visit the website
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-visual" style="background-color: #1B3A6B;">
+              <img src="/projects/constance.png" alt="Constance website homepage: too many people end up back in hospital in the weeks after going home" />
+            </div>
+          </article>
+
+          <!-- Watchlist -->
+          <article class="project-card reveal">
+            <div class="project-visual" style="background-color: #FACC15;">
+              <img src="/projects/watchlist.jpg" alt="Watchlist search results for Dune, showing film posters with ratings and add buttons" />
+            </div>
+            <div class="project-info">
+              <span class="badge badge--live">Live</span>
+              <h3 class="project-title">Watchlist</h3>
+              <p class="project-tagline">Film Tracker with an AI Taste Profile</p>
+              <p class="project-desc">
+                A Letterboxd-style film tracker I built for myself. Search any film, keep a to-watch list, rate what you've seen, and get stats plus an AI taste profile that suggests what to watch next based on your ratings. You can follow friends, see what they're watching in a feed, and check how closely your taste matches theirs. Every table is locked down with row-level security, so you only ever see data from people you follow.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Next.js</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Supabase</span>
+                <span class="tag">Claude API</span>
+                <span class="tag">Playwright</span>
+              </div>
+              <div class="project-links">
+                <a href="https://watchlist-ashen-ten.vercel.app" target="_blank" rel="noopener" class="link-arrow">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="https://github.com/IshaanKataria/watchlist" target="_blank" rel="noopener" class="link-arrow">
+                  View on GitHub
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Vacationer -->
+          <article class="project-card project-card--compact reveal">
+            <div class="project-info">
+              <span class="badge badge--live">Live</span>
+              <h3 class="project-title">Vacationer</h3>
+              <p class="project-tagline">Australian Internship and Graduate Role Tracker</p>
+              <p class="project-desc">
+                Finding internships in Australia meant digging through listings stuck behind logins and ranked by which employer paid the most. Vacationer is a free tracker of 36 curated programs sorted by what closes next. A weekly GitHub Actions job re-checks every listing with the Claude API and deploys the updates by itself, and it has run unattended since July.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Next.js</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Claude API</span>
+                <span class="tag">GitHub Actions</span>
+              </div>
+              <div class="project-links">
+                <a href="https://vacationer-tracker.vercel.app" target="_blank" rel="noopener" class="link-arrow">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="https://github.com/IshaanKataria/vacationer-tracker" target="_blank" rel="noopener" class="link-arrow">
+                  View on GitHub
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
           <!-- Belongity -->
           <article class="project-card project-card--compact reveal">
             <div class="project-info">
@@ -142,7 +230,7 @@ import '../styles/global.css'
           <!-- SiteVoice -->
           <article class="project-card reveal">
             <div class="project-info">
-              <span class="badge">Sophiie AI Hackathon / Solo</span>
+              <span class="badge">7th of 155 &middot; Sophiie AI Hackathon / Solo</span>
               <h3 class="project-title">SiteVoice</h3>
               <p class="project-tagline">Voice-First AI Assistant for Tradies</p>
               <p class="project-desc">
@@ -291,10 +379,10 @@ import '../styles/global.css'
               I'm doing a double degree at Monash in Commerce and IT because I couldn't pick one. Turns out that's a feature, not a bug. I think about problems from both the business and technical side, which means I build things people actually want to use.
             </p>
             <p>
-              I got into coding through wanting to automate stuff that annoyed me. That turned into building an AI voice assistant for tradies, pulling all-nighters at hackathons, and winning Best Pitch at a Canva-sponsored hackathon for Belongity. Currently exploring forensic technology, financial crime advisory, and software engineering.
+              I got into coding through wanting to automate stuff that annoyed me. That turned into building an AI voice assistant for tradies, pulling all-nighters at hackathons, and winning Best Pitch twice, at the Canva hackathon for Belongity and the Australian Grand Prix hackathon for My Lap.
             </p>
             <p>
-              I'm interested in startups and want to eventually build my own. Right now I'm stacking skills, shipping side projects, competing in hackathons, and looking for the right team to join.
+              I always wanted to build my own company. In October that became Constance: we formed the team at the Startmate Student Founder Bootcamp, won the final pitch, and I now lead product and tech. I'm also a Projects Officer at the Monash Association of Coding, working on open-source tools for Monash students.
             </p>
           </div>
           <div class="reveal reveal-d1">
@@ -364,6 +452,13 @@ import '../styles/global.css'
               <span class="skill-pill">PostgreSQL</span>
               <span class="skill-pill">REST APIs</span>
               <span class="skill-pill">WebRTC</span>
+              <span class="skill-pill">Supabase</span>
+              <span class="skill-pill">AWS</span>
+              <span class="skill-pill">Cloudflare Workers</span>
+              <span class="skill-pill">Vercel</span>
+              <span class="skill-pill">GitHub Actions</span>
+              <span class="skill-pill">Playwright</span>
+              <span class="skill-pill">Claude API</span>
               <span class="skill-pill">OpenAI API</span>
               <span class="skill-pill">pandas</span>
               <span class="skill-pill">matplotlib</span>
@@ -383,24 +478,40 @@ import '../styles/global.css'
             <h3>Honors &amp; Awards</h3>
             <ul class="award-list">
               <li>
-                <span class="award-title">Best Pitch</span>
-                <span class="award-meta">Canva Hackathon, Monash &middot; 2026</span>
+                <span class="award-title">1st Place, Startmate Student Founder Bootcamp</span>
+                <span class="award-meta">Top pitch of ~60 students &middot; $15,000 in OpenAI credits &middot; 2026</span>
               </li>
               <li>
-                <span class="award-title">1st Place &mdash; LeadLab Leadership Simulation</span>
+                <span class="award-title">Best Pitch, Australian Grand Prix Hackathon</span>
+                <span class="award-meta">ImpactHack x AGPC, My Lap &middot; 2026</span>
+              </li>
+              <li>
+                <span class="award-title">Best Pitch, Canva Hackathon</span>
+                <span class="award-meta">Monash, Belongity &middot; 2026</span>
+              </li>
+              <li>
+                <span class="award-title">Runner-Up, CommBank Future Thinkers</span>
+                <span class="award-meta">Commonwealth Bank &middot; 2026</span>
+              </li>
+              <li>
+                <span class="award-title">3rd of 88 Teams, MASA x EY x CA ANZ Case Competition</span>
+                <span class="award-meta">Audit readiness case &middot; 2026</span>
+              </li>
+              <li>
+                <span class="award-title">7th of 155 and First-Timer Award, Sophiie AI Hackathon</span>
+                <span class="award-meta">SiteVoice, built solo in 33 hours</span>
+              </li>
+              <li>
+                <span class="award-title">1st Place, LeadLab Leadership Simulation</span>
                 <span class="award-meta">Beta Alpha Psi, Monash</span>
               </li>
               <li>
-                <span class="award-title">1st Place &mdash; INAAM Invest With Impact Pitch</span>
+                <span class="award-title">1st Place, inaam Invest With Impact Pitch</span>
                 <span class="award-meta">Monash Entrepreneurship Club</span>
               </li>
               <li>
-                <span class="award-title">State Finalist &mdash; Public Policy Case Competition</span>
+                <span class="award-title">State Finalist, Public Policy Case Competition</span>
                 <span class="award-meta">Economics Student Society of Australia</span>
-              </li>
-              <li>
-                <span class="award-title">Top 10 &mdash; Sophiie AI Hackathon</span>
-                <span class="award-meta">SiteVoice</span>
               </li>
             </ul>
           </div>
@@ -408,15 +519,19 @@ import '../styles/global.css'
             <h3>Leadership &amp; Activities</h3>
             <ul class="award-list">
               <li>
-                <span class="award-title">Sponsorship &mdash; Monash Algorithms &amp; Problem Solving</span>
-                <span class="award-meta">Firm outreach incl. Optiver for the Trade-a-thon</span>
+                <span class="award-title">Projects Officer, Monash Association of Coding</span>
+                <span class="award-meta">Open-source tools for Monash students, incl. MPLOY and MonMap</span>
               </li>
               <li>
-                <span class="award-title">General Committee &mdash; Beta Alpha Psi</span>
-                <span class="award-meta">Monash chapter</span>
+                <span class="award-title">Competitions Director, Beta Alpha Psi</span>
+                <span class="award-meta">Leading a 5-person Competitions team, Monash chapter</span>
               </li>
               <li>
-                <span class="award-title">Sponsorship &mdash; Monash Entrepreneurship Club</span>
+                <span class="award-title">Sponsorship, Monash Algorithms &amp; Problem Solving</span>
+                <span class="award-meta">Pitched quant firms incl. Jane Street and Optiver</span>
+              </li>
+              <li>
+                <span class="award-title">Sponsorship, Monash Entrepreneurship Club</span>
                 <span class="award-meta">Partnerships &amp; outreach</span>
               </li>
             </ul>
@@ -438,6 +553,14 @@ import '../styles/global.css'
           </div>
           <div class="experience-cards">
             <div class="experience-card reveal">
+              <div class="experience-card-header">
+                <h3>Co-founder, Product and Technology Lead</h3>
+                <span class="period">Oct 2026 &ndash; Present</span>
+              </div>
+              <p class="company">Constance &middot; Melbourne, VIC</p>
+            </div>
+
+            <div class="experience-card reveal reveal-d1">
               <div class="experience-card-header">
                 <h3>Housekeeping Attendant</h3>
                 <span class="period">Sep 2025 &ndash; Present</span>
